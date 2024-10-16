@@ -1,0 +1,8 @@
+﻿  MyString.cpp
+C:\Users\sofia\source\repos\dz11MyString4\dz11MyString4\MyString.cpp(29,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\sofia\source\repos\dz11MyString4\dz11MyString4\MyString.cpp(37,27): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\sofia\source\repos\dz11MyString4\dz11MyString4\MyString.cpp(105,12): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\sofia\source\repos\dz11MyString4\dz11MyString4\MyString.cpp(232,20): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+MyString.obj : error LNK2005: "class std::basic_istream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_istream<char,struct std::char_traits<char> > &,class MyString &)" (??5@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEAV01@AEAVMyString@@@Z) уже определен в main.obj
+MyString.obj : error LNK2005: "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class MyString const &)" (??6@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AEAV01@AEBVMyString@@@Z) уже определен в main.obj
+C:\Users\sofia\source\repos\dz11MyString4\x64\Debug\dz11MyString4.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
